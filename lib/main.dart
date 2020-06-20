@@ -4,7 +4,7 @@ import 'package:audioplayers/audio_cache.dart';
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
-  Expanded buildKey({var color, int soundNumber}) {
+  Expanded buildKey({Color color, int soundNumber}) {
     return Expanded(
       child: FlatButton(
         color: color,
